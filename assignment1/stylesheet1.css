@@ -1,0 +1,71 @@
+.verticalAlignParent{
+    font-size: 50px;
+    border-radius: 10px solid;
+}
+.verticalAlignBase{
+    border:10px;
+    vertical-align:baseline;
+}
+.alignLastLineToRight{
+    float:right
+}
+.div1{
+    background-image:url("WhatsApp Image 2024-06-24 at 23.44.19.jpeg") ;
+    background-position: cover;
+    background-size: 500px 500px;
+    background-attachment: scroll;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style:solid;
+    border-right-style: solid;
+    font-size: 100px;
+    opacity: 90%;
+    color:blue;
+}
+.span1{
+    font-size: 40px;
+}
+.img1{
+    float:right;
+}
+.img2{
+    float:left;
+}
+.span2{
+    color:blue;
+    background-color: yellow;
+}
+.foot-note{
+    text-align:center;
+    font-size: small;
+    border: 10px solid blue;
+    padding: 50px;
+    background: rgb(219,240,255);
+}
+table{
+    border: 1px solid black;
+    font-size: 30px;
+    width:100%;
+}
+td{
+    border:1px solid black;
+}
+.form1{
+    font-size: 30px;
+}
+.checkbox1{
+    margin: 4px 0 0;
+    line-height: normal;
+    width: 35px;
+    height: 35px;
+    align-self: auto;
+}
+.navigation a:hover{
+    background-color: black;
+    color: white;
+}
+.navigation a:active{
+    background-color: red;
+    color: white;
+}
+

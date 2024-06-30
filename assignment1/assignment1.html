@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NALANDA UNIVERSITY</title>
+        <link rel="stylesheet" href="stylesheet1.css">
+        <style>
+            .alignToRight{
+                text-align-last:right;
+            }
+            </style>
+    </head>
+    <body>
+        <p>
+            <nav class="navigation"> 
+                <img src="download (1).jpg" alt="Logo" width="50px" height="50px" class="verticalAlignBaseline">
+                <span class="verticalAlignParent" style="background-color: aqua; text-align:right;"><a href="assignment1.html" class="active" onclick="activeMain()" id="Main">NALANDA UNIVERSITY</a></span>
+                <span class="alignLastLineToRight" style="font-size: 50px; border: solid 1px"><a href="ContactUs.html" target="_blank" class="" onclick="activeContact()" id="Contact">CONTACT US</a></span>
+                </nav>
+        </p>
+        <p class="backgroundimage">
+                <div class="div1" style="text-align: center;">WELCOME<br> TO NALANDA<br> UNIVERSITY</div> 
+        </p>
+        <span>
+            <img class="img1" src="images.jpg" alt="Nalanda University" width="505px" height="560px">
+            <p class="span1">
+                Nalanda university, established in the 5th century CE in the Indian State of Bihar, was one of the world's first residential 
+                universities and a renowned center for learning in ancient India. It attracted scholars and students from all across Asia, offering
+                a diverse curriculum that included subjects like theology, grammar, logic, astronomy, metaphysics, and medicine. The university's
+                expansive library, known as Dharma Gunj, housed thousands of manuscripts and texts, contributing to its reputation as a pivotal 
+                intitution for Buddhist studies and other disciplines. Despite its destruction in the 12th century, Nalanda's legacy as a symbol
+                of ancient academic excellence endures. 
+            </p>
+        </span>
+        <span>
+            <img class="img2" src="images.jpg" alt="Nalanda University 2" height="560px" width="500px">
+            <p class="span1">
+                The significance of Nalanda University extended beyond its academic achievements; it was also a melting pot of cultures and
+                ideas. Scholars from China, Korea, Japan, Tibet, Mongolia, Turkey, Sri Lanka, and Southeast Asia journeyed to Nalanda to study 
+                and exchange knowledge, fostering a vibrant intellectual and cultural exchange. The university's influence was instrumental in the 
+                spread of Buddhism and Indian culture throughout Asia. Despite its eventual decline and destruction, the revival of Nalanda University
+                in the 21st century seeks honour in its illustrious past by continuing its tradition of scholarly excellence and cultural exchangein a 
+                mordern context.  
+            </p>
+            <div>
+                <span class="span1 span2">HISTORY OF NALANDA UNIVERSITY</span>
+                <iframe width="1500" height="522" src="https://www.youtube.com/embed/I0C-3t-WtZA" 
+                title="Why did they lied about Nalanda University? | Real History | Documentary" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+             </div>
+        </span>
+        <div>
+            <h1 class="foot-note">ALL RIGHTS ARE RESERVED</h1>
+            </div>
+        <script type="text/javascript">
+            function activeMain(){
+                document.getElementById("Main").classList.add("active");
+                document.getElementById("Contact").classList.remove("active");
+            }
+            function activeContact(){
+                document.getElementById("Main").classList.remove("active");
+                document.getElementById("Contact").classList.add("active");
+            }
+            </script>
+    </body>
+</html>

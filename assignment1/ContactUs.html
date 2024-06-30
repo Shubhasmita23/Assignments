@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONTACT US</title>
+        <link rel="stylesheet" href="stylesheet1.css" >
+    </head>
+    <body>
+        <nav class="navigation">
+            <img src="download (1).jpg" alt="Logo" width="50px" height="50px" class="verticalAlignBaseline">
+            <span class="verticalAlignParent" style="background-color: aqua; text-align: right;"><a href="assignment1.html" target="_blank">NALANDA UNIVERSITY</a></span>
+            <span class="alignLastLineToRight" style="font-size: 50px; border: solid 1px;"><a href="ContactUs.html">CONTACT US</a></span>
+        </nav>
+        <hr/>
+        <p class="span1">
+            We welcome you to get in touch with Nalanda University, a beacon of academic excellence and cultural heritage. Our dedicated staff is here to
+            assist you with any inquires or information you may need. Whether you are a prospective student looking for admissions details, a researcher 
+            interested in our academic programs, or an alumnus seeking to reconnect, we are here to help you. You can reach us via email at <a href="mailto: shubhasmitadash23@gmail.com">
+                Nalanda University</a> or by phone at <span style="background-color: yellow;">+91-123-456-7890</span>. Our campus is located at Rajgir, Bihar, 
+                surrounded by the serene beauty of ancient historical sites. For in-person visits, our administrative office is open from Monday
+                to Friday from 9AM to 5PM. Additionally, you can follow us on our social media platforms for latest updates and news. We look forward
+                to hearing from you and assisting you in any way possible. At Nalanda University, we strive to foster an environment of open communication
+                and support, ensuring that your experience is enriching and seamless. 
+        </p>
+        <h1 class="verticalAlignParent" style="text-shadow: 2px 2px 2px aqua; text-decoration-line: underline;">FORM</h1>
+        <form action="javascript: submitform()" onsubmit="return validate()">
+        <table styel="width:100%">
+                <tr>
+                    <label for="name"><td>NAME:</td></label>
+                    <td><input type="text" class="form1" id="name" placeholder="E.g. John Pepper" required><td>
+                    </tr>
+                <tr>
+                    <label for="email"><td>EMAIL:</td></label>
+                    <td><input type="email"class="form1" id="email" placeholder="please enter a valid email" required></td>
+                    </tr>
+                <tr>
+                    <label for="genre"><td>FAVOURITE GENRE:</td></label>
+                    <td><input list="genre" class="form1"></td></tr>
+                    <datalist id="genre">
+                        <option value="Drama"></option>
+                        <option value="Fable"></option>
+                        <option value="Fantasy"></option>
+                        <option value="Fiction"></option>
+                        <option value="Self-Help"></option>
+                        </datalist>
+            </form>
+        </table>
+        <div>
+            <input type="checkbox" class="checkbox1" >
+            <span class="span1">SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</span>
+            </div>
+        <div style="text-align: center;">
+        <input type="submit" name="submit" value="submit" style="font-size: 30px; margin-top: 10px;">
+        </div>
+        <script type="text/javascript">
+            function validate(){
+                let ele=document.getElementById("name")
+                let validate=true
+                let ele1=document.getElementById("checkbox")
+                if(ele.value.length<10)
+                {
+                    window.alert("Name should be more than 10 characters!")
+                    validate=false;
+                }
+                return validate;
+            }
+            function submitform(){
+                window.alert("Form is submitted.")
+            }
+            </script>
+            <div>
+                <h1 class="foot-note">ALL RIGHTS ARE RESERVED</h1>
+                </div>
+    </body>
+
+</html>
